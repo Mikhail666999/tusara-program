@@ -38,15 +38,15 @@ echo \"Если вы в консоли с root правами, то пожалу
 read
 clear
 # Введите всё файлы .java и в нужном порядке и через ПРОБЕЛ " "
-# var=""
+# var=\"\"
 # Введите всё теже файлы только с расширением .class и в томже порядке и через ПРОБЕЛ " "
-# var2=""
+# var2=\"\"
 
 cd scr
 javac Main.java 
-# javac Main.java "$var"
+# javac Main.java \"\$var\"
 if [ $? -eq 0 ]; then
-    # mv Main.class "$var2" ../bin/
+    # mv Main.class \"\$var2\" ../bin/
     mv Main.class ../bin/
     cd ../bin/
     java Main
