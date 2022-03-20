@@ -121,7 +121,7 @@ readme(){
 Идете в файл build.sh и записываете в var2 все теже файлы с расширением .class""" >> readme.txt
 }
 
-name_folder="tusara-2.0"
+name_folder="tusara-2.2"
 project_pach_id=""
 
 # echo "Если вы в консоли с root правами, то пожалуйста введите exit и запустите заново."
