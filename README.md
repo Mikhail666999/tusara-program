@@ -1,3 +1,3 @@
 # tusara-program
 
-structure for the java projectё
+structure for the java project
